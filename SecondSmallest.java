@@ -30,7 +30,8 @@ public class SecondSmallest {
 		  
 		 
 
-		int arr[] = { 12, 13, 1, 10, 34, 1 };
+		//int arr[] = { 12, 13, 1, 10, 34, 1 };
+		int arr[] = { 0};
 		int n = arr.length, first = Integer.MAX_VALUE, second = Integer.MAX_VALUE;
 		for (int i = 0; i < n; i++) {
 			if (arr[i] < first) {
@@ -40,6 +41,9 @@ public class SecondSmallest {
 				second = arr[i];
 			}
 		}
+		if(second == Integer.MAX_VALUE)
+		System.out.println(0);
+		else
 		System.out.println(second);
 	}
 }
