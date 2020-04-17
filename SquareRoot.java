@@ -1,5 +1,12 @@
 package gs.practiceCode;
-
+// https://www.geeksforgeeks.org/square-root-of-a-perfect-square/
+// Babylonian method  
+/*1 Start with an arbitrary positive start value x (the closer to the 
+		   root, the better).
+		2 Initialize y = 1.
+		3. Do following until desired approximation is achieved.
+		  a) Get the next approximation for root using average of x and y
+		  b) Set y = n/x*/
 public class Solution {
 	/*
 	 * double squareRoot( double x )
